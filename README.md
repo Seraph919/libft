@@ -107,9 +107,7 @@
     <p>The toupper() function converts a lower-case letter to the corresponding upper-case letter.</p>
     </details>
   </ul>
-</details>
-
-<details>
+  </details>
     <summary>ft_itoa.c</summary>
     <p>Allocates (with malloc(3)) and returns a string representing the integer received as an argument.Negative numbers must be handled.</p>
     </details>
