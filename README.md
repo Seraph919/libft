@@ -4,7 +4,8 @@
   </p>
 <h2>Grade</h2>
 
-![grade](https://github.com/user-attachments/assets/9219fd6d-f8b2-4c37-9392-d38050e5154e)
+![grade](https://github.com/user-attachments/assets/fb6f7c71-7799-4d5e-8ce3-4dd6513a4b60)
+
 
 </div>
 </br>
