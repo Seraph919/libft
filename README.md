@@ -12,7 +12,8 @@
   <details>
     <summary>ft_atoi.c</summary>
     <p>The ft_atoi() function converts the initial portion of the string pointed to by ptr to int representation.
-      Not overflow protected. - [`ft_atoi`](ft_atoi.c)
+      Not overflow protected.
+  - [`ft_atoi`](ft_atoi.c)	-
     </p>
     </details>
   <details>
