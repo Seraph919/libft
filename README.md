@@ -11,7 +11,7 @@
 <div>
   <h2>:memo: Table of Contents</h2>
 <details>
-  <summary>Mandatory Part One</summary>
+  <summary>Mandatory Part</summary>
   <ul>
   <details>
     <summary>ft_atoi.c</summary>
@@ -108,10 +108,6 @@
     </details>
   </ul>
 </details>
-
-<details>
-  <summary>Mandatory Part Two</summary>
-  <ul>
   <details>
     <summary>ft_itoa.c</summary>
     <p>Allocates (with malloc(3)) and returns a string representing the integer received as an argument.Negative numbers must be handled.</p>
