@@ -3,6 +3,7 @@
    The project aims to build a library of functions that focus on low-level memory management and allocation, essential concepts in C programming. The key objective is to implement these functions while gaining an understanding of how to construct and manage a Makefile, which is central to the project.
   </p>
 <h2>Grade</h2>
+![Alt text](images/grade.png)
 </div>
 </br>
 <div>
