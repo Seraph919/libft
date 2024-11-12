@@ -5,7 +5,7 @@
 </div>
 </br>
 <div>
-  <h2>:trollface: Table of Contents</h2>
+  <h2>:memo: Table of Contents</h2>
 <details>
   <summary>Mandatory Part One</summary>
   <ul>
