@@ -1,27 +1,38 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_putstr_fd.c                                     :+:      :+:    :+:   */
+/*   unsigned.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: asoudani <asoudani@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/10/26 18:30:35 by asoudani          #+#    #+#             */
-/*   Updated: 2024/11/13 23:19:55 by asoudani         ###   ########.fr       */
+/*   Created: 2024/11/13 14:15:14 by asoudani          #+#    #+#             */
+/*   Updated: 2024/11/13 23:31:11 by asoudani         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_printf.h"
 
-void ft_putstr_fd(char *s, int fd)
+void unsigned_int(unsigned int nb)
 {
-    if (!s)
-        ft_putstr_fd("(null)", fd);
-    else
-    {
-        while (*s)
-        {
-            ft_putchar_fd(*s, fd);
-            s++;
-        }
-    }
+    unsigned int	i;
+	unsigned int	n;
+
+	i = 1;
+	n = nb;
+
+	if (n == 0)
+	{
+		ft_putchar_fd('0', 1);
+		return ;
+	}
+	while (i * 10 <= n)
+	{
+		i *= 10;
+	}
+	while (i > 0)
+	{
+		ft_putchar_fd((n / i) + '0', 1);
+		n %= i;
+		i /= 10;
+	}
 }
